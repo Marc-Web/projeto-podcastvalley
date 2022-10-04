@@ -1,0 +1,47 @@
+.header-component {
+  display: flex;
+  flex-direction: row;
+  width: 1016px;
+  height: 104px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.logo {
+  left: 35.71%;
+  right: 0.72%;
+  top: 28.1%;
+  bottom: 26.9%;
+  background: #494D4B;
+}
+
+.span-text {
+  left: 20.21%;
+  right: 64.31%;
+  top: 5.37%;
+  bottom: 92.56%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808080;
+}
+
+.span-date {
+  position: absolute;
+  left: 61.04%;
+  right: 33.89%;
+  top: 5.37%;
+  bottom: 92.56%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #808080;
+}
