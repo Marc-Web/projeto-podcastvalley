@@ -18,3 +18,5 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 - Criando o componente header.
 - Criando o componente últimos lançamentos.
 - Criando o componente lista de episódios.
+- Criando o componente lista de episódios.
+- Criando o componente player.
