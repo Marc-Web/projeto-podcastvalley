@@ -2,11 +2,19 @@ import React from "react";
 import Episode from "./Episode";
 
 class EpisodeList extends React.Component {
+  totalEpisodes() {
+    const {episodes}  = this.props.podcasts;
+    const total = Object.entries(episodes).length;
+
+    return total;
+  }
+
   render() {
     const podcasts = this.props.podcasts;
     return (
       <div>
         <h2>Todos os Episódios</h2>
+        <p>{`${this.totalEpisodes()} ao total`}</p>
         <table>
         <thead>
           <tr>

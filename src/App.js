@@ -1,5 +1,5 @@
 import Home from './pages/Home';
-import podcasts from '../podcastvalley_data.json';
+import podcasts from './podcastvalley_data.json';
 
 function App() {
   return (
