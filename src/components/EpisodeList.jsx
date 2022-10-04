@@ -1,7 +1,9 @@
 import React from "react";
+import Episode from "./Episode";
 
 class EpisodeList extends React.Component {
   render() {
+    const podcasts = this.props.podcasts;
     return (
       <div>
         <h2>Todos os Episódios</h2>
@@ -15,7 +17,7 @@ class EpisodeList extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {}
+          {<Episode podcasts={podcasts}/>}
         </tbody>
       </table>
       </div>

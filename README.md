@@ -20,3 +20,4 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 - Criando o componente lista de episódios.
 - Criando o componente lista de episódios.
 - Criando o componente player.
+- Criando o componente episódio.
