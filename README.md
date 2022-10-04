@@ -15,4 +15,5 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 
 ## Desenvolvimento
 
-- Criando o header.
+- Criando o componente header.
+- Criando o componente últimos lançamentos.
