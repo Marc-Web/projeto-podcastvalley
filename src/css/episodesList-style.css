@@ -1,0 +1,15 @@
+.episodes-list {
+  position: absolute;
+  width: 888px;
+  height: 411px;
+  left: 64px;
+  top: 400px;
+  font-size: 14px;
+}
+
+.div-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+}

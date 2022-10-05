@@ -1,5 +1,6 @@
 import React from "react";
 import Episode from "./Episode";
+import "../css/episodesList-style.css"
 
 class EpisodeList extends React.Component {
   totalEpisodes() {
@@ -12,9 +13,11 @@ class EpisodeList extends React.Component {
   render() {
     const podcasts = this.props.podcasts;
     return (
-      <div>
-        <h2>Todos os Episódios</h2>
-        <p>{`${this.totalEpisodes()} ao total`}</p>
+      <div className="episodes-list">
+        <div className="div-title">
+          <h2>Todos os Episódios</h2>
+          <p>{`${this.totalEpisodes()} ao total`}</p>
+        </div>
         <table>
         <thead>
           <tr>

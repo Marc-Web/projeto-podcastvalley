@@ -20,4 +20,5 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 - Criando o componente lista de episódios.
 - Criando o componente lista de episódios.
 - Criando o componente player.
-- Criando o componente episódio.
+- Criando o componente episódio, que formata cada um e renderiza na tela.
+- Construindo a lógica do total de episódios e inserindo o resultado na tela.
