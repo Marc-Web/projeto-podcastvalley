@@ -1,5 +1,6 @@
 import moment from "moment";
 import React from "react";
+import "../css/lastReleases-style.css";
 
 class LastReleases extends React.Component {
   renderTwoLastEpisodes() {
@@ -7,23 +8,27 @@ class LastReleases extends React.Component {
     moment.locale('pt-br');
     
     return podcasts.episodes.map((episode) => {
-      const { id, thumbnail, title, members, published_at, file } = episode;
+      const { id, thumbnail, title, members, published_at } = episode;
       return (
-          <tr key={id}>
-            <td><img src={thumbnail} alt={id} width={50} /> <span>{title}</span></td>
-            <td>{members}</td>
-            <td><p>{moment(published_at).format('D MMM YY')}</p></td>
-            <td><p>{file.duration}</p></td>
-          </tr>
+          <div>
+            <img src={thumbnail} alt={id} width={50} />
+            <span>{title}</span>
+            <p>{members}</p>
+            <p>{moment(published_at).format('D MMM YY')}</p>
+          </div>
       )
   }).slice(0, 2);
   }
 
   render() {
     return (
-      <div>
-        <h2>Últimos lançamentos!!!</h2>
-        {this.renderTwoLastEpisodes()}
+      <div className="box-releases">
+        <div className="title">
+          <h2>Últimos lançamentos!!!</h2>
+        </div>
+        <div className="div-last-releases">
+          {this.renderTwoLastEpisodes()}
+        </div>
       </div>
     )
   }

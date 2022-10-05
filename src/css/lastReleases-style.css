@@ -1,0 +1,18 @@
+.div-last-releases {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #FFFFFF; */
+
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  /* items/background */
+
+  background: #FFFFFF;
+  /* items/line */
+
+  border: 1px solid #E6E8EB;
+  border-radius: 24px;
+}
