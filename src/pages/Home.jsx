@@ -10,7 +10,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header />
-        <LastReleases />
+        <LastReleases podcasts={podcasts} />
         <EpisodeList podcasts={podcasts} />
         <Player podcasts={podcasts} />
       </div>
