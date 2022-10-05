@@ -22,3 +22,10 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 - Criando o componente player.
 - Criando o componente episódio, que formata cada um e renderiza na tela.
 - Construindo a lógica do total de episódios e inserindo o resultado na tela.
+- Estilizando o componente player.
+
+### Bibliotecas externas
+
+Utilizei a biblioteca [Moment](https://https://momentjs.com/) para formatar datas.
+
+Utilizei a biblioteca [React-icons](https://react-icons.github.io/react-icons) para inserir ícones à aplicação.
