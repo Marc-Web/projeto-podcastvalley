@@ -5,3 +5,56 @@
   right: 0%;
   background: #8257E5;
 }
+
+.box-episode {
+  box-sizing: border-box;
+  position: absolute;
+  width: 296px;
+  height: 346px;
+  left: 64px;
+  top: 187px;
+  background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(145, 100, 250, 0) 100%);
+  border: 1.5px dashed #9F75FF;
+  border-radius: 24px;
+}
+
+.box-episode p {
+  position: absolute;
+  left: 32.08%;
+  right: 31.84%;
+  top: 41.46%;
+  bottom: 53.66%;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.text-title {
+  position: absolute;
+  left: 41.51%;
+  right: 29.95%;
+  top: 5%;
+  bottom: 92.56%;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.player-bar {
+  position: absolute;
+  left: 15%;
+  right: 42.45%;
+  top: 86.34%;
+  bottom: 5.85%;
+  background: #9164FA;
+  mix-blend-mode: normal;
+  border-radius: 16px;
+}
