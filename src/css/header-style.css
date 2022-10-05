@@ -1,22 +1,25 @@
-.header-component {
+.top-header {
   display: flex;
-  flex-direction: row;
-  width: 1016px;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  font-size: 20px;
+}
+
+.div-header {
   height: 104px;
+  width: 1016px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  border-radius: 0px;
 }
 
 .logo {
-  left: 35.71%;
-  right: 0.72%;
-  top: 28.1%;
-  bottom: 26.9%;
-  background: #494D4B;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
-.span-text {
+/* .span-text {
   left: 20.21%;
   right: 64.31%;
   top: 5.37%;
@@ -44,4 +47,4 @@
   line-height: 17px;
   text-align: right;
   color: #808080;
-}
+} */
