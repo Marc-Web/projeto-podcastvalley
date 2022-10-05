@@ -4,7 +4,7 @@
   height: 411px;
   left: 64px;
   top: 400px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .div-title {
@@ -12,4 +12,8 @@
   align-items: center;
   justify-content: space-between;
   background: #FFFFFF;
+}
+
+.table-head {
+  background-color: gray;
 }

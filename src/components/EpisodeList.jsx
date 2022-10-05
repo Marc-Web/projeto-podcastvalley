@@ -12,6 +12,7 @@ class EpisodeList extends React.Component {
 
   render() {
     const podcasts = this.props.podcasts;
+    console.log(podcasts.episodes);
     return (
       <div className="episodes-list">
         <div className="div-title">
@@ -19,7 +20,7 @@ class EpisodeList extends React.Component {
           <p>{`${this.totalEpisodes()} ao total`}</p>
         </div>
         <table>
-        <thead>
+        <thead className="table-head">
           <tr>
             <th>PODCAST</th>
             <th>INTEGRANTES</th>
@@ -28,7 +29,7 @@ class EpisodeList extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {<Episode podcasts={podcasts}/>}
+          {podcasts.episodes.map((episode) => <Episode eachEpisode={episode}/> )}
         </tbody>
       </table>
       </div>

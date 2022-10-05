@@ -1,0 +1,19 @@
+.episode-button {
+  color: #04D361;
+  height: 32px;
+  width: 32px;
+  left: 856px;
+  top: 4px;
+  border-radius: 8px;
+}
+
+.div-episode {
+  height: 40px;
+  width: 888px;
+  left: 64px;
+  top: 759px;
+}
+
+.td-episode {
+  padding: 5px;
+}

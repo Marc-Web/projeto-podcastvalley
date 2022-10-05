@@ -1,29 +1,21 @@
 import moment from 'moment';
 import React from 'react';
+import { BsPlayFill } from 'react-icons/bs';
+import "../css/episode-style.css";
 
 class Episode extends React.Component {
-  renderEpisodeItems() {
-    const podcasts = this.props.podcasts;
-    moment.locale('pt-br');
-    
-    return podcasts.episodes.map((episode) => {
-      const { id, thumbnail, title, members, published_at, file } = episode;
-      return (
-          <tr key={id}>
-            <td><img src={thumbnail} alt={id} width={50} /> <span>{title}</span></td>
-            <td>{members}</td>
-            <td><p>{moment(published_at).format('D MMM YY')}</p></td>
-            <td><p>{file.duration}</p></td>
-          </tr>
-      )
-  })
-  }
-
   render () {
+    const { id, thumbnail, title, members, published_at, file } = this.props.eachEpisode;
     return (
-      <>
-        {this.renderEpisodeItems()}
-      </>
+      <div className='div-episode'>
+        <tr key={id}>
+            <td className='td-episode'><img src={thumbnail} alt={id} width={50} /> <span>{title}</span></td>
+            <td className='td-episode'>{members}</td>
+            <td className='td-episode'>{moment(published_at).format('D MMM YY')}</td>
+            <td className='td-episode'>{file.duration}</td>
+            <button className='episode-button'><BsPlayFill /></button>
+          </tr>
+      </div>
     );
   }
 };
