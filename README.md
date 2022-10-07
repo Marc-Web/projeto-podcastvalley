@@ -4,7 +4,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 ## Como rodar o app
 
-No diretório do projeto, você pode executar:
+Clone o projeto para sua máquina e no diretório do projeto, você pode executar:
 
 ### `npm start`
 
@@ -23,6 +23,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu na
 - Construindo a lógica do total de episódios e inserindo o resultado na tela.
 - Estilizando o componente player.
 - Exibindo os dois últimos episódios na tela.
+- Refatorando o componente episode.
 
 ### Bibliotecas externas
 

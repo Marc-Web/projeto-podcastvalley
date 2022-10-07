@@ -20,17 +20,17 @@ class EpisodeList extends React.Component {
           <p>{`${this.totalEpisodes()} ao total`}</p>
         </div>
         <table>
-        <thead className="table-head">
-          <tr>
-            <th>PODCAST</th>
-            <th>INTEGRANTES</th>
-            <th>DATA</th>
-            <th>DURAÇÃO</th>
-          </tr>
-        </thead>
-        <tbody>
-          {podcasts.episodes.map((episode) => <Episode eachEpisode={episode}/> )}
-        </tbody>
+          <thead className="table-head">
+            <tr>
+              <th>PODCAST</th>
+              <th>INTEGRANTES</th>
+              <th>DATA</th>
+              <th>DURAÇÃO</th>
+            </tr>
+          </thead>
+          <tbody>
+            {podcasts.episodes.map((episode) => <Episode eachEpisode={episode}/> )}
+          </tbody>
       </table>
       </div>
     )
